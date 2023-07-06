@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.menu-container{
+    background-color: #f9ca24;
+    height: 50px;
+    color: black;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-right: 500px;
+    background-color: #95afc0;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.menus{
+    display: flex;
+    color:white ;
+    margin-left: 300px;
+}
+
+li{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    padding-top: 1.6%;
+    background-color: black;
+    box-shadow: 5px 5px 18px black;
+}
+
+.item{
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.item:hover{
+    color: yellow;
+    border-radius: 20px;
+    transition: 1s ease-out;
+
+}
+
+.btn{
+    background-color: #f9ca24;
+    color: black;
+    font-weight: bolder;
+    width: 150PX;
+    height: 35px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #e55039;
+    transition: 1s ease-out;
+}
+
+.banner-container{
+    display: flex;
+    height: 836px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    /*background-image: url(""),linear-gradient(45deg,black,black);*/
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.bannerimg{
+    background-color: #f9ca24;
+}
+
+.container-two{
+    background-image: url("img/bg.jpg");
+    background-position: cover;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.container-three{
+    background-color: #95afc0;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px black ;
+    background-color: white;
+}
+
+.box img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px; 
+}
+
+.htmllogo{
+    width: 300px
+}
